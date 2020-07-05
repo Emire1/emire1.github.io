@@ -7,8 +7,6 @@ let toTop = document.querySelector('.to-top');
 let loader = document.querySelector('#loader');
 let main = document.querySelector('main');
 
-console.log(designs);
-
 
 document.onreadystatechange = () => {
     if(document.readyState !== 'complete'){
