@@ -3,10 +3,9 @@ let projectButton = document.querySelector('.project-button');
 let designButton = document.querySelector('.design-button');
 let selection = document.querySelector('#social');
 let designs = document.querySelector('.designs');
-let toTop = document.querySelector('.to-top');
+let toTop = document.querySelector('.to-top > a');
 let loader = document.querySelector('#loader');
 let main = document.querySelector('main');
-
 
 document.onreadystatechange = () => {
     if(document.readyState !== 'complete'){

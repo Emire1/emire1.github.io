@@ -1,39 +1,3 @@
-@keyframes border-flash {
-    0% {
-        border-color: red;
-    }
-    10% {
-        border-color: black;
-    }
-    20% {
-        border-color: gold;
-    }
-    30% {
-        border-color: green;
-    }
-    40% {
-        border-color: cyan;
-    }
-    50% {
-        border-color: orangered;
-    }
-    60% {
-        border-color: chocolate;
-    }
-    70% {
-        border-color: blue;
-    }
-    80% {
-        border-color: orange;
-    }
-    90% {
-        border-color: magenta;
-    }
-    100% {
-        border-color: red;
-    }
-}
-
 @keyframes bounceIn {
     from {
         opacity: 0;
@@ -202,14 +166,6 @@
     animation-delay: 500ms;
 }
 
-.design-button {
-    animation-delay: 2s;
-}
-
-.project-button {
-    animation-delay: 1.5s;
-}
-
 .contact {
     animation-delay: 600ms;
 }
@@ -249,16 +205,9 @@
 
 .projects, .designs {
     opacity: 1;
-    transition: opacity 1s;
+    transition: opacity 2s;
 }
 
 .projects.hide, .designs.hide {
     opacity: 0;
-}
-
-html {
-    animation-name: border-flash;
-    animation-duration: 25s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
 }
