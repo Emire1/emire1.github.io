@@ -165,7 +165,7 @@ a {
     text-shadow: none;
     transition-property: box-shadow, transform, background-color;
     user-select: none;
-    vertical-align: top;
+    /* vertical-align: top; */
     white-space: nowrap;
     will-change: box-shadow, transform, background-color;
 }
